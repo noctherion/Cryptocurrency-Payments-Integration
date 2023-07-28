@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/payment-callback', methods=['POST'])
 def payment_callback():
-    # Handle payment callback from Coinbase Commerce
+    # Handle payment callback from Coinbase Commerce:
     data = request.json
     charge_id = data['event']['data']['id']
     status = data['event']['data']['timeline'][0]['status']
