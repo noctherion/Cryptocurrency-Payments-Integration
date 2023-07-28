@@ -31,7 +31,7 @@ class CoinbasePaymentGateway:
             return None
 
     def check_payment_status(self, charge_id):
-        # Check the status of a payment
+        # Check the status of a payment:
         url = f"{self.base_url}/charges/{charge_id}"
         headers = {
             'X-CC-Api-Key': self.api_key
