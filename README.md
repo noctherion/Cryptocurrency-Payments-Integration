@@ -12,11 +12,11 @@ __Step 1:__ Set Up Coinbase Commerce Account:
 __Step 2:__ Install Required Libraries:
 
  - You need to install the requests library to make API calls and Flask to handle payment callbacks.
-```
+```bash
 pip install requests Flask
 ```
 
-Step 3: Run the Payment Callback Web Server:
+__Step 3:__ Run the Payment Callback Web Server:
 ```
 python payment_callback.py
 ```
