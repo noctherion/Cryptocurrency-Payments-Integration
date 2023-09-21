@@ -1,6 +1,6 @@
 # Cryptocurrency Payments Integration
 
-Integrate cryptocurrency payment gateways into an existing e-commerce platform or website.
+Integrate cryptocurrency payment gateways into an existing e-commerce platform or website...
 
 To provide you with a very detailed and advanced Python code for Cryptocurrency Payments Integration, I'll present an example using the popular cryptocurrency payment gateway provider, Coinbase Commerce. Please note that the actual integration may differ based on the chosen provider's API and documentation.
 
